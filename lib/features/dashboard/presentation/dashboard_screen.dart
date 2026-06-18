@@ -252,7 +252,6 @@ Future<void> _refreshBookings() async {
             ),
 
             const SizedBox(height: 20),
-
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 20),
               child: Row(
@@ -486,7 +485,6 @@ Future<void> _refreshBookings() async {
         ),
       );
     }
-
     if (snapshot.hasError) {
       return const Center(
         child: Text(
@@ -494,7 +492,6 @@ Future<void> _refreshBookings() async {
         ),
       );
     }
-
     final bookings = snapshot.data ?? [];
 
     if (bookings.isEmpty) {
@@ -568,8 +565,6 @@ Future<void> _refreshBookings() async {
                 ],
               ),
             ),
-            
-
             const SizedBox(height: 20),
           ],
         ),
