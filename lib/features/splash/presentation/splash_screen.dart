@@ -34,9 +34,7 @@ class _SplashScreenState extends State<SplashScreen>
         curve: Curves.easeInOut,
       ),
     );
-
     _controller.forward();
-
      Timer(const Duration(seconds: 3), () {
    Navigator.pushReplacement(
   context,
@@ -74,7 +72,6 @@ class _SplashScreenState extends State<SplashScreen>
             child: Column(
               mainAxisSize: MainAxisSize.min,
               children: [
-                
                 Image.asset(
                   'asset/images/logo.png',
                   width: 480,
