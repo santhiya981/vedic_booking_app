@@ -34,5 +34,15 @@ A scalable, production-ready Flutter application implementing the core booking w
 ## 🏃‍♂️ Getting Started & Running the Project
 
 ### Prerequisites
-- Flutter SDK (Latest Stable Channel)
-- Android SDK / Emulator configured
+* **Flutter SDK**: Ensure you have the latest stable Flutter SDK installed (`>= 3.0.0`).
+* **Java Development Kit (JDK)**: JDK 11 or higher (configured automatically with Android Studio).
+* **Environment**: Android Studio, VS Code, or an Android Emulator/Physical Device running in Developer Mode.
+
+### ⚙️ Setup Instructions
+
+Follow these steps to clone, configure, and execute the project locally:
+
+**1. Clone the repository**
+```bash
+git clone [https://github.com/santhiya981/vedic_booking_app.git](https://github.com/santhiya981/vedic_booking_app.git)
+cd vedic_booking_app
