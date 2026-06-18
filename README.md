@@ -6,8 +6,6 @@ A scalable, production-ready Flutter application implementing the core booking w
 
 ## 🚀 Implemented Features & Screens
 
-Due to the strict assessment timeline, development was strategically prioritized around nailing the high-fidelity UI layout and state management transitions for the primary user workflows.
-
 1. **Splash Screen:** Animated entry screen featuring a gradient background, logo, and automatic routing.
 2. **Home Dashboard:** Displays booking statistics cards, upcoming ritual data, and a live-updating recent booking requests list.
 3. **My Bookings (Primary Screen):** Full booking management interface supporting real-time local search filter by customer name and dynamic tab status filtering (Pending, Confirmed, Completed).
@@ -24,9 +22,8 @@ Due to the strict assessment timeline, development was strategically prioritized
 
 ---
 
-## ⏱️ Scope Reductions & Production Enhancements (Time-Constrained)
+## ⏱️ Scope Reductions & Production Enhancements
 
-To guarantee the delivery of an incredibly polished core application by the 2:00 PM deadline, a few items were deferred to a production roadmap:
 
 - **Ritual Verification & Completion (Screens 5 & 6):** Due to strict time constraints, the multi-step OTP validation and live timer screens were deferred. The application architecture is configured to seamlessly append these presentation states to the existing Bloc layer in a future milestone.
 - **Local Storage Persistence:** State updates currently live directly within the reactive Bloc memory scope for seamless presentation during runtime testing. For a production release, an offline client like `Hive`, `Isar`, or `hydrated_bloc` would be injected directly into the `BookingRepository` to preserve status mappings permanently across app restarts.
