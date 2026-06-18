@@ -39,8 +39,3 @@ To guarantee the delivery of an incredibly polished core application by the 2:00
 ### Prerequisites
 - Flutter SDK (Latest Stable Channel)
 - Android SDK / Emulator configured
-
-### Installation & Run Steps
-1. Clone the project repository:
-   ```bash
-   git clone YOUR_REPOSITORY_LINK
